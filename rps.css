@@ -1,0 +1,126 @@
+
+
+* {
+    margin:0;
+    padding: 0;
+    text-align: center;
+  
+
+}
+body {
+    background-image: url(Polish_20240628_181319875.jpg);
+
+    background-size: cover;
+ 
+    /* Center and scale the image nicely */
+
+     
+}
+h1 {
+    padding: 0.5rem;
+    height: 5rem;
+    width: 100%;
+    /* background-image: url(rock-paper-scissors-neon-icons-vector.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    opacity: 0.7;
+     */
+     background-color: #081b31;
+    color: #ffffff;
+    line-height: 5rem;
+
+}
+
+
+ .choice {
+   margin-top: 5rem;
+   height: 11rem;
+   width: 11rem;
+   margin-left: 3rem;
+
+ }
+ .choice:hover{
+
+    
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+img {
+    height:10rem;
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.choices {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.score-board {
+
+    margin-top:5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+     gap:3rem;
+     margin-left: 2rem;
+}
+
+#user-score,#comp-score {
+   background-color: white;
+    font-size: 4rem;
+    color: black;
+}
+
+
+
+.msg-container {
+
+    margin-top: 4rem;
+    margin-left: 2rem;
+
+}
+
+#msg {
+    
+    background-color: #081b31;
+    color: white;
+    font-size:2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 5px;
+    border-color: white;
+
+}
+
+#msg:hover{
+    opacity: 0.3;
+}
+
+.win {
+
+    background-color: green;
+    color: white;
+
+}
+
+.lose {
+    background-color: red;
+    color: white;
+}
+
+.draw {
+    background-color: blue;
+    color: white;
+}
